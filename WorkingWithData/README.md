@@ -36,7 +36,7 @@ While early project work might be simple, often you need to use a more recent ve
 ## A tiny project
 To show what we can do in JupyterLab lets work through a small project.  Download the following [Airbnb data]( https://www.kaggle.com/kritikseth/us-airbnb-open-data ). The following will guide you through reading and displaying data.
 
-## Display Data - Python 
+## Display Data - [Python Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo.ipynb)
 First of all Launch JupyterLab, if this is not installed do so now. If this works it will open a JupyterLab tab in your default browser. In the left-hand side of this tab, you should see a file browser, navigate to wherever you’d like to save your notebook.  Create a new Python 3 notebook. This will have a default filename of "Untitled.ipynb". Rename this if you like.
  
 Image of a new notebook
@@ -67,7 +67,7 @@ df['city'].value_counts().head(5).plot(kind='bar')
 
 This should plot a bar chart of the five cities with the most Airbnb’s, and the number of Airbnb’s in each city.
 
-## Display Data - R
+## Display Data - [R Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo-R.ipynb)
 Writing R code in Jupyter requires we create an R notebook. We need a new environment which has both Python and R installed.  To do this go to the “Environments” tab and create a new environment with a Python and an R version installed. This may take up to ten minutes.  
 
 IMAGE
