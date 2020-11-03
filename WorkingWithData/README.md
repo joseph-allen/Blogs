@@ -72,11 +72,12 @@ df['city'].value_counts().head(5).plot(kind='bar')
 ```
 
 This should plot a bar chart of the five cities with the most Airbnb’s, and the number of Airbnb’s in each city.
+![A graph showing the top 5 most Airbnb populated cities in the US](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/PythonGraph.JPG)
 
 ## Display Data - [R Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo-R.ipynb)
 Writing R code in Jupyter requires we create an R notebook. We need a new environment which has both Python and R installed.  To do this go to the “Environments” tab and create a new environment with a Python and an R version installed. This may take up to ten minutes.  
 
-IMAGE
+![Screenshot of a JupyterLab notebook being launched in R](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/AnacondaR.jpg)
 
 If you prefer here, you have the option of installing and running RStudio from Anaconda. I recommend giving JupyterLab a go though! You may need to install JupyterLab again for this new Python and R environment. First of all Launch JupyterLab. In the left-hand side of this tab, you should see a file browser, navigate to wherever you’d like to save your notebook. Create an R notebook, and rename this from the default “Untitled.ipynb”.
 
@@ -117,6 +118,9 @@ sortedCounts <- head(counts %>% arrange(desc(n)), n=5)
 ggplot(data=sortedCounts, aes(x=city, y=n)) +
   geom_bar(stat="identity")
 ```
+![A graph showing the top 5 most Airbnb populated cities in the US](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/RGraph.JPG)
+
+
 ## GitHub - Share your work
 While I haven’t covered what git and GitHub are in this post, I will save this for a later blog post. For now, know that GitHub is a place to store programming related files. One extra benefit of Jupyter Notebooks is that Github will render them. This means that whatever you save and push to GitHub can be public or private. See the following examples:
 * [Python Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo.ipynb)
