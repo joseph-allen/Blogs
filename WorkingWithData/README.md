@@ -17,9 +17,13 @@ If you are on a device running macOS or anything Linux based it’s likely you a
 Often we want a way to run our code without needing to know about the command line. Below are alternatives that let you write code without learning more tools.
 
 ### REPL.IT
+![Screenshot of REPL.IT text editor and terminal](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/REPL.JPG)
+
 [Repl.it](https://repl.it/) lets you create disposable environments for Python, R and much more. This is a great place to quickly write simple code, explore a small dataset, try out packages and share your code publicly.
 
 ### Google Colab
+![Screenshot of Google Colab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/GoogleColab.jpeg)
+
 [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) lets you run code in the browser in notebook style. A notebook is a collection of code alongside markdown cells. This format lets you write textual analysis inline with code fragments. This, in turn, helps make your work more reproducible and understandable. One disadvantage is that Colab uses Google Drive to store your data. Viable alternatives here are Jupyter or JupyterLab.
 
 ### Anaconda
@@ -37,13 +41,15 @@ While early project work might be simple, often you need to use a more recent ve
 To show what we can do in JupyterLab lets work through a small project.  Download the following [Airbnb data]( https://www.kaggle.com/kritikseth/us-airbnb-open-data ). The following will guide you through reading and displaying data.
 
 ## Display Data - [Python Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo.ipynb)
+![Screenshot of a JupyterLab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/Anaconda.png)
 First of all Launch JupyterLab, if this is not installed do so now. If this works it will open a JupyterLab tab in your default browser. In the left-hand side of this tab, you should see a file browser, navigate to wherever you’d like to save your notebook.  Create a new Python 3 notebook. This will have a default filename of "Untitled.ipynb". Rename this if you like.
  
-Image of a new notebook
+![Screenshot of a JupyterLab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/AnacondaNotebook.png)
 
 You can also drag and drop your dataset into the file browser to upload it to your session. Again rename this dataset if you like, in my example code, I’ve called it `data.csv`. You should now have both your notebook and a dataset available.
 
 If you double click the dataset you will see an Excel-like table of your data. This can be useful to check your data is as expected, and ask any data quality questions.
+![Screenshot of a Data in a table format in JupyterLab](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/AnacondaData.png)
 
 There is a small “plus” icon next to the save button for your .ipynb file, this will let you create new cells. And the “Code” dropdown will let you swap between markdown and code for this cell. In our first cell we can write:
 
