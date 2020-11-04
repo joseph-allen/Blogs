@@ -1,6 +1,6 @@
 # Working With Data
 
-[Python](https://www.python.org/)  and [R](https://www.r-project.org/) are the main tools in the world of data. Although they aren't trivial to get started with, they should be. This post walks through my day 1 set up at the [UK Data Service]( https://ukdataservice.ac.uk/). This post covers setting up any machine for Python, R and a plotting example for each. No programming knowledge needed.
+[Python](https://www.python.org/)  and [R](https://www.r-project.org/) are the main tools in the world of data. Although they aren't trivial to get started with, they should be. This post walks through my day 1 set up at the [UK Data Service]( https://ukdataservice.ac.uk/). We cover setting up any machine for Python, R and a plotting example for each. No programming knowledge needed.
  
 The UK Data Service hosts the United Kingdom's largest collection of social data. Through the website, you can request, manage and deposit all sorts of social data. Sharing access to that data is only the first step. To make an impact we need people of all skill levels to explore that data.
  
@@ -33,6 +33,7 @@ Often we want a way to run our code without needing to know about the command li
 First of all download the Anaconda version for your Operating System. Downloads are available [here](https://www.anaconda.com/products/individual#Downloads). Run the installer, this should take about 10 minutes.
 
 Once installed, run anaconda and you should see something like the below. You should have access to Jupyter, JupyterLab, RStudio, VS Code and more. You may have to install these if you want to use them. The most common program I use here is JupyterLab.
+![Screenshot of a JupyterLab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/Anaconda.png)
 
 ## Versioning & Packages
 While early project work might be simple, often you need to use a more recent version of a package. You may need to downgrade your Python version to reproduce a project from years ago. Anaconda makes this easy with the “Environments” tab. Here you can create, swap between and manage your environments. This is where you come if you need to install a new package. If you plan on writing R, create a new environment now with both a Python and an R library.
@@ -41,7 +42,6 @@ While early project work might be simple, often you need to use a more recent ve
 To show what we can do in JupyterLab lets work through a small project.  Download the following [Airbnb data]( https://www.kaggle.com/kritikseth/us-airbnb-open-data ). The following will guide you through reading and displaying data.
 
 ## Display Data - [Python Demo](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/Demo.ipynb)
-![Screenshot of a JupyterLab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/Anaconda.png)
 First of all Launch JupyterLab, if this is not installed do so now. If this works it will open a JupyterLab tab in your default browser. In the left-hand side of this tab, you should see a file browser, navigate to wherever you’d like to save your notebook.  Create a new Python 3 notebook. This will have a default filename of "Untitled.ipynb". Rename this if you like.
  
 ![Screenshot of a JupyterLab notebook](https://github.com/joseph-allen/Blogs/blob/master/WorkingWithData/images/AnacondaNotebook.png)
